@@ -1,0 +1,49 @@
+/* TABLET */
+
+@media (max-width: 1200px) {
+    .inside #map-container {
+        width: 100%;
+        position: relative;
+    }
+
+    .inside #map {
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #restaurant-container {
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+
+    #reviews-container {
+        width: 80%;
+        margin: 0 10% 0 10%;
+    }
+
+    .inside #footer {
+        width: 100%;
+        padding: 25px 0 25px 0;
+    }
+}
+
+/* SMARTPHONE */
+
+@media screen and (max-width: 414px) {
+    #restaurants-list {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #restaurants-list li {
+        min-width: 240px;
+        width: 80%;
+        margin: 20px 10% 20px 10%;
+    }
+
+    .filter-options select {
+        width: 25%;
+    }
+}
